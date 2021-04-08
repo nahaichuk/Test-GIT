@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="add41a87-e1df-4abf-9f9e-01cbdcc39f72">
+  <name>КонфигурацияGIT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурация GIT</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b778147a-c670-4385-87bc-7dc7c719f546"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="065ce365-39ab-42fe-bab3-c5cecf9beb1f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="1ccebd08-7d8c-4a03-a292-e41bde84fa36"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8c397486-4d8f-4b74-983a-73a33554e083"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="14c6ed01-12d6-4c4b-9794-8ab46686ef54"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a0158338-5467-466f-b4dd-9f315c207ec1"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="08704219-935c-4386-a130-062f37d1fd1e"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="60fb6451-6644-4757-9a2a-f3cc0beb5df3">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Справочник</catalogs>
+</mdclass:Configuration>

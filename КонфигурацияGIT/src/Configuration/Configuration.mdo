@@ -41,4 +41,5 @@
   </languages>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <catalogs>Catalog.Справочник</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
 </mdclass:Configuration>

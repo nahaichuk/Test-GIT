@@ -40,6 +40,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.МодульВова</commonModules>
   <catalogs>Catalog.Справочник</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
 </mdclass:Configuration>

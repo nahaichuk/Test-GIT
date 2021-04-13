@@ -61,6 +61,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Родитель</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>РодительПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>РодительРасширеннаяПодсказка</name>
       <id>6</id>

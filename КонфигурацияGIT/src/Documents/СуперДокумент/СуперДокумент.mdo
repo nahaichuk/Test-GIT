@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="780eb5d7-cd33-4d9a-9035-c7f9e300030d">
+  <producedTypes>
+    <objectType typeId="0c7af70d-17bc-4ce5-82a4-c001e4e1e41e" valueTypeId="00a5c5ed-f2c2-49b5-862e-a1a015e43027"/>
+    <refType typeId="3a34b947-b20f-46ac-a8ad-bad6387ff977" valueTypeId="f6cabbb4-d51e-4aa1-82e5-6a4eb9d85fdc"/>
+    <selectionType typeId="c2862620-0b4a-4c55-b41f-fc4f7bb5b86f" valueTypeId="1ec1aae5-aa15-4446-997f-9f6f90882657"/>
+    <listType typeId="618e5379-b4cc-4ff4-ae77-eac616fe76fc" valueTypeId="6a78497c-d9d3-47b8-af6a-52a6213df9b3"/>
+    <managerType typeId="d7c0faef-af20-4a8c-96b0-c91698f29cc2" valueTypeId="6787f267-4948-4ba4-a1b7-2480be3c3b99"/>
+  </producedTypes>
+  <name>СуперДокумент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Супер документ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СуперДокумент.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="94a7bf18-dd0c-4752-a673-9050fb94fd8e">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="0066c5cd-611a-4994-83a1-ae5b2223a6ea">
+    <producedTypes>
+      <objectType typeId="1e1c33c8-90c1-456b-9170-357e44a02773" valueTypeId="6e86e8f0-70bf-48ab-a4f3-7009272bdaca"/>
+      <rowType typeId="944f33ea-ced1-43cd-9681-de61fb788a32" valueTypeId="08adb298-484a-4854-a25c-e0167e866014"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="99bb7715-39d1-4cc2-8cd9-2f0caa126f92">
+      <name>Реквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

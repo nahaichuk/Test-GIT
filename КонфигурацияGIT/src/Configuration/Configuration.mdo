@@ -43,4 +43,5 @@
   <commonModules>CommonModule.МодульВова</commonModules>
   <catalogs>Catalog.Справочник</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.СуперДокумент</documents>
 </mdclass:Configuration>
